@@ -1,0 +1,25 @@
+<div class=" mx-3 shadow d-flex p-5 px-2 m-auto my-5 rounded-3 justify-content-center flex-wrap">
+    <div *ngFor="let prod of products">
+        <div class="rounded-3 shadow h-auto mb-4 mx-1" style="width: 18rem;" >
+            <div class="w-100 rounded-top-3 h-75 img"  [style.backgroundImage]="'url(' + prod.product.paths.img + ')'"></div>
+            <div class="p-3">
+                <div class="d-flex justify-content-between align-items-start ">
+                    <button class="bg-transparent border-0" (click)="getProduct(prod.product.id)">
+                        <h4 class="m-0">{{prod.product.name}}</h4>
+                    </button>
+                    <button class="bg-transparent border-0" (click)="removeFav(prod.id)">
+                        <i class="fas fa-heart p-2 icon m-0 rounded-5 border-0"></i>
+                    </button>
+                </div>
+                
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                    <i [class.fas]="i < prod.product.rate" [class.fa-star]="i < prod.product.rate" 
+                       [class.far]="i >= prod.product.rate" [class.fa-star]="true" class="icon m-0 bg-transparent"></i>
+                </ng-container>
+
+                <h5 class="mt-2 mb-1">{{prod.product.price}} EGP</h5>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,23 @@
+/*
+.slick-prev:before,.slick-next:before{
+    color: black !important;
+    background-color: black !important;
+}
+ 
+.custom-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  
+  .custom-arrow-prev {
+    left: 10px;
+  }
+  
+  .custom-arrow-next {
+    right: 10px;
+  } */

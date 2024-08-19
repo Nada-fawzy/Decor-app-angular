@@ -1,0 +1,27 @@
+<div class="w-75 mx-auto py-4 ">
+  <h4> LOGIN NOW </h4>
+   
+  <form (ngSubmit)="handleLogin(LoginForm)" [formGroup]="LoginForm">
+      <!-- <h2>{{LoginForm.get('name')?.getError('minlength')}}</h2> -->
+      <label for="email">Email :</label>
+      <input formControlName="email" class="form-control mb-2" id="email">
+      <p>try: nada20&#64;gmail.com</p>
+       
+   
+       <div *ngIf="LoginForm.get('email')?.errors  && LoginForm.get('email')?.touched" class="alert alert-danger">
+          <p *ngIf="LoginForm.get('email')?.getError('email')" class="m-0">Email Invalid</p>
+          <p *ngIf="LoginForm.get('email')?.getError('required')" class="m-0">Email Is required</p>
+       </div>
+   
+      <label for="password">password :</label>
+   
+      <div *ngIf="LoginForm.get('password')?.errors  && LoginForm.get('password')?.touched" class="alert alert-danger">
+          <p *ngIf="LoginForm.get('password')?.getError('pattern')" class="m-0">password must start with upperCase then from 3 to 10 </p>
+          <p *ngIf="LoginForm.get('password')?.getError('required')" class="m-0">password Is required</p>
+       </div>
+   
+      <input formControlName="password" class="form-control mb-2" id="password">
+       <p>try: N3456789</p>
+      <button [disabled]="LoginForm.invalid" type="submit" class="btn btn-info">LOGIN</button>
+  </form>
+  </div>

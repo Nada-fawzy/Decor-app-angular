@@ -1,0 +1,12 @@
+.icon{
+    color: #c057f7;
+    background-color: #bf57f72f;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.img{
+    height: 250px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

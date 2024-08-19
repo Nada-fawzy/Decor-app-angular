@@ -1,0 +1,558 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "",
+      "email": "nada20@gmail.com",
+      "phone": "0123456785",
+      "add": {
+        "city": "Assiut",
+        "street": "6 October",
+        "country": "Egypt"
+      },
+      "password": "N3456789",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Shrook",
+      "email": "shrook20@gmail.com",
+      "phone": "0123456785",
+      "add": {
+        "city": "Assiut",
+        "street": "6 October",
+        "country": "Egypt"
+      },
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Dalia",
+      "email": "dalia20@gmail.com",
+      "phone": "0123456785",
+      "add": {
+        "city": "Assiut",
+        "street": "6 October",
+        "country": "Egypt"
+      },
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Sohila",
+      "email": "sohila20@gmail.com",
+      "phone": "0123456785",
+      "add": {
+        "city": "Assiut",
+        "street": "6 October",
+        "country": "Egypt"
+      },
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "email": "nada20@gmail.com",
+      "password": "R3456789",
+      "id": "s_zvVU_"
+    },
+    {
+      "email": "nada@gmail.com",
+      "password": "Nada12345",
+      "id": "aAU02Rz"
+    },
+    {
+      "email": "nada@gmail.com",
+      "password": "Nada12345",
+      "id": "OLCKiIX"
+    },
+    {
+      "email": "nada20@gmail.com",
+      "password": "N3456789",
+      "id": "8XYGaE8"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Living Room",
+      "image": "/Images/living.jpg",
+      "description": "Ideas and inspiration for decorating your living room with comfort and style."
+    },
+    {
+      "id": 2,
+      "name": "Kitchen",
+      "image": "/Images/kitchen.jpeg",
+      "description": "Tips and trends for designing a functional and stylish kitchen that meets all your needs."
+    },
+    {
+      "id": 3,
+      "name": "Bedrooms",
+      "image": "/Images/bedroom.jpg",
+      "description": "Cozy and comfortable bedroom decor ideas for a restful retreat and better sleep."
+    },
+    {
+      "id": 4,
+      "name": "Bathrooms",
+      "image": "/Images/bathroom.webp",
+      "description": "Elegant and practical bathroom design inspirations to create your personal spa."
+    },
+    {
+      "id": 5,
+      "name": "Outdoor",
+      "image": "/Images/outdoor.jpg",
+      "description": "Creative ways to enhance your outdoor living spaces, from patios to gardens."
+    },
+    {
+      "id": 6,
+      "name": "Home Office",
+      "image": "/Images/office.jpg",
+      "description": "Stylish and productive home office decor ideas to boost your work-from-home experience."
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Colorful Photo Frame",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://i.etsystatic.com/5695233/r/il/700f2d/2253905265/il_1588xN.2253905265_i9ml.jpg",
+        "icon": [
+          "https://i.etsystatic.com/5695233/r/il/700f2d/2253905265/il_1588xN.2253905265_i9ml.jpg",
+          "https://th.bing.com/th/id/OIP.ENl39L_Ptyt5gBc7h325mAHaGC?rs=1&pid=ImgDetMain",
+          "https://img1.etsystatic.com/128/0/10127489/il_340x270.856366375_1ptw.jpg",
+          "https://th.bing.com/th/id/OIP.70MmTPYDwB9ioXeBnsQFRQHaJ4?pid=ImgDet&w=474&h=632&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 100,
+      "rate": 3,
+      "categoryId": 1
+    },
+    {
+      "id": "4",
+      "name": "Wooden Photo Frame",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://cdn.notonthehighstreet.com/fs/e2/14/4182-9d13-45a9-9959-767b66bd9124/original_natural-wood-rustic-handmade-photo-frame.jpg",
+        "icon": [
+          "https://cdn.notonthehighstreet.com/fs/e2/14/4182-9d13-45a9-9959-767b66bd9124/original_natural-wood-rustic-handmade-photo-frame.jpg",
+          "https://cdn.notonthehighstreet.com/fs/be/be/1745-6cd2-4f41-8143-abde5dbc5bf3/original_natural-wood-rustic-handmade-photo-frame.jpg",
+          "https://th.bing.com/th/id/OIP.sUUhKV-lKg2acMqG08y7IwHaHa?pid=ImgDet&w=474&h=474&rs=1",
+          "https://th.bing.com/th/id/OIP.P_rM908TTFhszFHsMP0cTQHaHa?pid=ImgDet&w=474&h=474&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 130,
+      "rate": 4,
+      "categoryId": 1
+    },
+    {
+      "id": "5",
+      "name": "Ashley Furniture",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://www.architectandinteriorsindia.com/public/images/2020/08/07/13701-38-35-21-T766.jpg",
+        "icon": [
+          "https://www.architectandinteriorsindia.com/public/images/2020/08/07/13701-38-35-21-T766.jpg",
+          "https://www.architectandinteriorsindia.com/public/styles/portrait/public/images/2020/08/07/13701-35-SW.jpg?p3LmuqmN",
+          "https://www.architectandinteriorsindia.com/public/styles/portrait/public/images/2020/08/07/13701-21.jpg?VCx_yZKk",
+          "https://www.architectandinteriorsindia.com/public/styles/portrait/public/images/2020/08/07/13701-38-SW.jpg?c9SCLDHs"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 17000,
+      "rate": 5,
+      "categoryId": 2
+    },
+    {
+      "id": "6",
+      "name": "Classic Furniture",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://th.bing.com/th/id/OIP.TJ-vLPHLHYLmR_OVB98PsAHaHa?rs=1&pid=ImgDetMain",
+        "icon": [
+          "https://th.bing.com/th/id/OIP.TJ-vLPHLHYLmR_OVB98PsAHaHa?rs=1&pid=ImgDetMain",
+          "https://nyfurnitureoutlets.com/media/product/291488/w=2560,fit=contain",
+          "https://th.bing.com/th/id/OIP.mN-tBbntrSL5PNM-He0pTwHaHa?pid=ImgDet&w=474&h=474&rs=1",
+          "https://th.bing.com/th/id/OIP.Uooj_TAR3RkAsEUUdYTs9wHaE8?pid=ImgDet&w=474&h=316&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 30000,
+      "rate": 5,
+      "categoryId": 2
+    },
+    {
+      "id": "7",
+      "name": "Modern Furniture",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://th.bing.com/th/id/R.53066d85db2bf26d42683e89317aea76?rik=cbUQpndsu4WVXA&riu=http%3a%2f%2fwww.royhomedesign.com%2fwp-content%2fuploads%2f2017%2f03%2ffurniture-for-modern-house-with-neutral-color-schemes-in-modern-grey-sectional-sofa-for-living-room-furniture-also-large-square-fabric-coffee-table-with-rug-area.jpg&ehk=mqYTo1l%2f6waKV%2bS%2be%2bc2yTCu1Ggz4dOETW96tB43pco%3d&risl=&pid=ImgRaw&r=0",
+        "icon": [
+          "https://th.bing.com/th/id/R.53066d85db2bf26d42683e89317aea76?rik=cbUQpndsu4WVXA&riu=http%3a%2f%2fwww.royhomedesign.com%2fwp-content%2fuploads%2f2017%2f03%2ffurniture-for-modern-house-with-neutral-color-schemes-in-modern-grey-sectional-sofa-for-living-room-furniture-also-large-square-fabric-coffee-table-with-rug-area.jpg&ehk=mqYTo1l%2f6waKV%2bS%2be%2bc2yTCu1Ggz4dOETW96tB43pco%3d&risl=&pid=ImgRaw&r=0",
+          "https://besthomish.com/wp-content/uploads/2019/09/beautiful-sofa-ideas-for-your-small-living-room35-630x380.jpg",
+          "https://th.bing.com/th/id/OIP.cmdmq2CgvV121mjkUvXg1gHaHa?w=500&h=500&rs=1&pid=ImgDetMain",
+          "https://www.ultra-guard.com/wp-content/uploads/2019/08/Denver_Fabric_Protection.jpg"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 18000,
+      "rate": 5,
+      "categoryId": 2
+    },
+    {
+      "id": "8",
+      "name": "Cooking space",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://www.tollbrothers.com/blog/wp-content/uploads/2019/02/007_Toll_12_3_18_Carver.jpg",
+        "icon": [
+          "https://www.tollbrothers.com/blog/wp-content/uploads/2019/02/007_Toll_12_3_18_Carver.jpg",
+          "https://th.bing.com/th/id/OIP._ktfOQfoB3EOQ7f-QWkPAAHaFn?w=500&h=379&rs=1&pid=ImgDetMain",
+          "https://www.knightremodeling.com/wp-content/uploads/2015/10/cropped-Benton-kitchen-stools-380x320.jpg",
+          "https://th.bing.com/th/id/OIP.Iwa8wdBLNHSFg-rmyrpPTgHaEs?pid=ImgDet&w=474&h=300&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 10000,
+      "rate": 3,
+      "categoryId": 2
+    },
+    {
+      "id": "9",
+      "name": "Luxury Kitchen",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://homededicated.com/wp-content/uploads/2017/04/luxury-kitchen-ideas.jpg",
+        "icon": [
+          "https://homededicated.com/wp-content/uploads/2017/04/luxury-kitchen-ideas.jpg",
+          "https://th.bing.com/th/id/R.c1b4bb2abce28b8b16fc2a699e08834a?rik=9pMzmzsctLLccA&riu=http%3a%2f%2fphotonshouse.com%2fphoto%2f81%2f8124afe7cf2af860aa01f8cd7165878d.jpg&ehk=uetBBNKuxU0RPDYSoCbar4nhdOu%2bt7gMgqSaiT3yfVI%3d&risl=&pid=ImgRaw&r=0",
+          "https://th.bing.com/th/id/OIP.m8Y3rTRNC1D1exoajacL3gHaHa?rs=1&pid=ImgDetMain",
+          "https://www.cbm-union.com/wp-content/uploads/2021/03/Custom-Kitchen-Cabinet-shaker-modern-design-30-1-768x768.jpg"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 60000,
+      "rate": 5,
+      "categoryId": 2
+    },
+    {
+      "id": "11",
+      "name": "Cooking space",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://www.tollbrothers.com/blog/wp-content/uploads/2019/02/007_Toll_12_3_18_Carver.jpg",
+        "icon": [
+          "https://www.tollbrothers.com/blog/wp-content/uploads/2019/02/007_Toll_12_3_18_Carver.jpg",
+          "https://th.bing.com/th/id/OIP._ktfOQfoB3EOQ7f-QWkPAAHaFn?w=500&h=379&rs=1&pid=ImgDetMain",
+          "https://www.knightremodeling.com/wp-content/uploads/2015/10/cropped-Benton-kitchen-stools-380x320.jpg",
+          "https://th.bing.com/th/id/OIP.Iwa8wdBLNHSFg-rmyrpPTgHaEs?pid=ImgDet&w=474&h=300&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 10000,
+      "rate": 3,
+      "categoryId": 3
+    },
+    {
+      "id": "10",
+      "name": "Luxury Kitchen",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://homededicated.com/wp-content/uploads/2017/04/luxury-kitchen-ideas.jpg",
+        "icon": [
+          "https://homededicated.com/wp-content/uploads/2017/04/luxury-kitchen-ideas.jpg",
+          "https://th.bing.com/th/id/R.c1b4bb2abce28b8b16fc2a699e08834a?rik=9pMzmzsctLLccA&riu=http%3a%2f%2fphotonshouse.com%2fphoto%2f81%2f8124afe7cf2af860aa01f8cd7165878d.jpg&ehk=uetBBNKuxU0RPDYSoCbar4nhdOu%2bt7gMgqSaiT3yfVI%3d&risl=&pid=ImgRaw&r=0",
+          "https://th.bing.com/th/id/OIP.m8Y3rTRNC1D1exoajacL3gHaHa?rs=1&pid=ImgDetMain",
+          "https://www.cbm-union.com/wp-content/uploads/2021/03/Custom-Kitchen-Cabinet-shaker-modern-design-30-1-768x768.jpg"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 60000,
+      "rate": 4,
+      "categoryId": 3
+    },
+    {
+      "id": "12",
+      "name": "Wall prints",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://th.bing.com/th/id/R.2e586f6abfe082356333d2df951ccc79?rik=kZTqHl5Ggcudnw&pid=ImgRaw&r=0",
+        "icon": [
+          "https://th.bing.com/th/id/R.2e586f6abfe082356333d2df951ccc79?rik=kZTqHl5Ggcudnw&pid=ImgRaw&r=0",
+          "https://th.bing.com/th/id/OIP.0eWlpcYuilRjMMpAypk_VwAAAA?pid=ImgDet&w=474&h=474&rs=1",
+          "https://th.bing.com/th/id/OIP.wxdpfDP9rxRyGjT4Z4ZzLwAAAA?pid=ImgDet&w=300&h=300&rs=1",
+          "https://th.bing.com/th/id/OIP.Mvo3X3ZFGUyxUWzY_DR26gAAAA?pid=ImgDet&w=300&h=300&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 100,
+      "rate": 2,
+      "categoryId": 5
+    },
+    {
+      "id": "17",
+      "name": "Colorful Photo Frame",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://i.etsystatic.com/5695233/r/il/700f2d/2253905265/il_1588xN.2253905265_i9ml.jpg",
+        "icon": [
+          "https://i.etsystatic.com/5695233/r/il/700f2d/2253905265/il_1588xN.2253905265_i9ml.jpg",
+          "https://th.bing.com/th/id/OIP.ENl39L_Ptyt5gBc7h325mAHaGC?rs=1&pid=ImgDetMain",
+          "https://img1.etsystatic.com/128/0/10127489/il_340x270.856366375_1ptw.jpg",
+          "https://th.bing.com/th/id/OIP.70MmTPYDwB9ioXeBnsQFRQHaJ4?pid=ImgDet&w=474&h=632&rs=1"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 100,
+      "rate": 3,
+      "categoryId": 4
+    },
+    {
+      "id": "13",
+      "name": "Colorful Wall prints",
+      "description": "Lorem ipsum dolor sit amet consecteturBeatae harum est repudiandae possimus aut pariatur suscipit asperiores similique sunt doloremque.",
+      "paths": {
+        "img": "https://m.media-amazon.com/images/I/612rL13IdnL.jpg",
+        "icon": [
+          "https://m.media-amazon.com/images/I/612rL13IdnL.jpg",
+          "https://i.etsystatic.com/14723190/r/il/37e9ca/2335411380/il_fullxfull.2335411380_fobt.jpg",
+          "https://i.etsystatic.com/26305016/r/il/4b7639/3529654800/il_570xN.3529654800_idek.jpg",
+          "https://i.etsystatic.com/30394050/r/il/a93a3c/3441122471/il_1080xN.3441122471_4km6.jpg"
+        ]
+      },
+      "color": [
+        "darkcyan",
+        "cornflowerblue",
+        "cadetblue",
+        "coral",
+        "burlywood"
+      ],
+      "price": 250,
+      "rate": 3,
+      "categoryId": 5
+    }
+  ],
+  "comments": [
+    {
+      "text": "newww",
+      "userId": "1",
+      "productId": "5",
+      "id": "pPGK_QL"
+    },
+    {
+      "text": "great job nada ",
+      "userId": "1",
+      "productId": "5",
+      "id": "ZeSXmTa"
+    },
+    {
+      "text": "great frame",
+      "userId": "1",
+      "productId": "1",
+      "id": "DjWKRLe"
+    },
+    {
+      "text": "Wow",
+      "userId": "1",
+      "productId": "1",
+      "id": "T6El4bD"
+    },
+    {
+      "text": "wonderful",
+      "userId": "1",
+      "productId": "1",
+      "id": "TEUk6jV"
+    },
+    {
+      "text": "wonderful ",
+      "userId": "1",
+      "productId": "4",
+      "id": "_VlPmrp"
+    },
+    {
+      "text": "great material",
+      "userId": "1",
+      "productId": "5",
+      "id": "Ma1FzzR"
+    },
+    {
+      "text": "great",
+      "userId": "1",
+      "productId": "10",
+      "id": "FTUgMvp"
+    },
+    {
+      "text": "great",
+      "userId": "1",
+      "productId": "4",
+      "id": "TNUMbkP"
+    },
+    {
+      "text": "wonderful",
+      "userId": "1",
+      "productId": "6",
+      "id": "kWbEDT7"
+    },
+    {
+      "text": "greaaaat ",
+      "userId": "1",
+      "productId": "4",
+      "id": "RzezgK0"
+    },
+    {
+      "text": "awesome",
+      "userId": "1",
+      "productId": "4",
+      "id": "PQNEgGG"
+    },
+    {
+      "text": "new comment",
+      "userId": "1",
+      "productId": "8",
+      "id": "VFnR5qt"
+    }
+  ],
+  "orders": [
+    {
+      "Quantity": 1,
+      "productId": "5",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "Quantity": 1,
+      "productId": "6",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "Quantity": 1,
+      "productId": "13",
+      "userId": "1",
+      "id": 5
+    },
+    {
+      "Quantity": 1,
+      "productId": "7",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "Quantity": 1,
+      "productId": "8",
+      "userId": "1",
+      "id": 7
+    }
+  ],
+  "favourites": [
+    {
+      "productId": "1",
+      "userId": "1",
+      "id": 5
+    },
+    {
+      "productId": "4",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "productId": "7",
+      "userId": "1",
+      "id": 9
+    },
+    {
+      "productId": "9",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "productId": "4",
+      "userId": "1",
+      "id": 11
+    },
+    {
+      "productId": "8",
+      "userId": "1",
+      "id": 12
+    },
+    {
+      "productId": "5",
+      "userId": "1",
+      "id": 13
+    },
+    {
+      "productId": "4",
+      "userId": "1",
+      "id": 14
+    }
+  ]
+}

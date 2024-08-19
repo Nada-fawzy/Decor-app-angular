@@ -1,0 +1,22 @@
+
+
+ <!-- Show Categories -->
+ <h3 class="header"> Our Categories </h3>
+
+ <div class="container">
+
+ <div class="row">
+  <div class="col-md-4 mt-5" *ngFor="let category of categoryList">
+    <div class="card category">
+      <img height="200px" src="{{category.image}}"  >
+      <div class="card-body">
+        <h4 class="card-title">{{category.name}}</h4>
+        <p class="card-text">{{category.description}}</p>
+        <a routerLink="" class="btn btn-primary w-100 my-2" (click)="getProducts(category.id)">Show Products</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br><br>

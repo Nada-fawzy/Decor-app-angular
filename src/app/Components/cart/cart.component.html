@@ -1,0 +1,35 @@
+<div class=" mx-3 shadow d-flex p-5 px-2 m-auto my-5 rounded-3 justify-content-center flex-wrap">
+    <div *ngFor="let prod of cart">
+        <div class="rounded-3 shadow h-auto mb-4 mx-1" style="width: 18rem; "  >
+            <div class="w-100 rounded-top-3 h-75 img " style="cursor: pointer;; " [style.backgroundImage]="'url(' + prod.product.paths.img + ')'" (click)="getProduct(prod.productId)"></div>
+            <div class="p-3">
+                <div class="d-flex justify-content-between align-items-start ">
+                    <h4 class="m-0">{{prod.product.name}}</h4>
+                    <button class="bg-transparent border-0" (click)="removeFromCart(prod.id)">
+                        <i class="fas fa-trash p-2 icon text-danger m-0 rounded-5 border-0"></i>
+                    </button>
+                    <!-- <i class="fas fa-heart p-2 icon m-0 rounded-5 border-0"></i> -->
+                </div>
+                
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                    <i [class.fas]="i < prod.product.rate" [class.fa-star]="i < prod.product.rate" 
+                       [class.far]="i >= prod.product.rate" [class.fa-star]="true" class="icon m-0 bg-transparent"></i>
+                </ng-container>
+
+                <h5 class="mt-2 mb-1">{{prod.product.price}} EGP</h5>
+
+                <div class="m-0 d-flex align-items-center ">Quantity:
+                    <div class=" d-flex justify-content-center align-items-center mx-2">
+                        <i (click)="decrement(prod)" class="fas fa-caret-left icon m-0 p-0 pt-1 bg-transparent"></i>
+                        <strong class="text-bold fs-5 m-0 p-0 mx-1">{{prod.Quantity}}</strong>
+                        <i (click)="increment(prod)" class="fas fa-caret-right icon m-0 p-0 pt-1 bg-transparent"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="p-3 py-2 border-top">
+            <h6>More Details</h6>
+        </div> -->
+        </div>
+    </div>
+
+</div>

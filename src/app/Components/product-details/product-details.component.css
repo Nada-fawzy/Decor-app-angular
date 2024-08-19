@@ -1,0 +1,66 @@
+.imgContainer{
+    border-right: 1px solid rgb(231, 230, 230);
+    /* border-radius: 7px; */
+}
+.smImgs{
+    position: sticky;
+    top: 220px;
+}
+.lgImg{
+    position: sticky;
+    top: 0;
+}
+.prodThumbnil{
+    border: 3px solid white;
+    transition: border 0.7s ease;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.prodThumbnil:hover{
+    border: 2px solid #c057f7;
+    cursor: pointer;
+}
+.icon{
+    color: #c057f7;
+    background-color: #bf57f72f;
+}
+.sendIcon,
+.icon:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 14px;
+    margin: 0;
+}
+.colorIcon{
+    width: 20px;
+    height: 20px;
+}
+.addToCart{
+    background-color: white;
+    border: 1px solid #c057f7;
+    font-weight: 500;
+    transition: background-color 0.5s ease;
+
+}
+.addToCart:hover{
+    background-color: #c057f7;
+    color: white;
+}
+.addToCart:hover i{
+    color: white;
+}
+.comments{
+    border-bottom: 1px solid rgba(231, 230, 230, 0.925);
+}
+input{
+    outline: none;
+    border: 1px solid #867c8b57;
+
+}
+.sendIcon{
+    color: #5e5d5f;
+}
+

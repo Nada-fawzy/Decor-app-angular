@@ -1,0 +1,48 @@
+
+
+
+<div style="margin-left: 10%;margin-right: 10%;margin-top: 50px;">
+  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slick">
+    <div ngxSlickItem  *ngFor="let product of productList" class="slide">
+   <a routerLink= "/product/{{product.id}}" class="btn my-2">
+                  <div class="card category shadow">
+                  <!-- <img height="200px" src="{{product.paths.img}}" > -->
+
+                  <div class="card-body">
+                  <h4 class="card-title">{{product.name}}</h4>
+                 
+                  <p class="card-text">{{product.description}}</p>
+                  <p>{{product.price}} EGP</p>
+                  </div>
+              </div>
+              
+  
+          </a>
+    </div>
+  
+  </ngx-slick-carousel>
+    </div>
+<!-- 
+  <div style="margin-left: 10%;margin-right: 10%;margin-top: 50px;">
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slickCarouselConfig">
+  <div ngxSlickItem  *ngFor="let product of productList" class="slide">
+          <a  routerLink= "/product/{{product.id}}" class="btn w-100 my-2">
+                  <div class="card category shadow">
+                  <img height="200px" src="{{product.paths.img}}" >
+                  <div class="card-body">
+                  <h4 class="card-title">{{product.name}}</h4>
+                 
+                  <p class="card-text">{{product.description}}</p>
+                  <p>{{product.price}} EGP</p>
+                  </div>
+              </div>
+              
+  
+          </a>
+       </div>
+    
+
+
+</ngx-slick-carousel>
+  </div>
+   -->

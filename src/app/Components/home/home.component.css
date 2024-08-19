@@ -1,0 +1,46 @@
+.imgContainer {
+    position: relative;
+
+}
+
+#bigImg {
+    display: block;
+    width: 100%;
+    height: 575px;
+    opacity: 0.7;
+}
+.header-img{
+    position: absolute;
+    color: black;
+
+}
+.text-header {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+.btnShop{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.text-overlay h1,
+.text-overlay p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Slider */
+.swiper-container {
+    height: 270px;
+  }
+  .swiper-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }

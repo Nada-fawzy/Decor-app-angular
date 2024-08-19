@@ -1,0 +1,16 @@
+.websiteName{
+    font-style: italic;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+   
+}
+#web-name{
+    color: black;
+}
+
+.pages{
+   border:1px dashed gray ;
+   
+}

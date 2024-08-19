@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    margin-top: 5%;
+}
+.category .btn{
+    transition: transform 1s,opacity 1s;
+    opacity: 0;
+    transform: translateY(100%);
+}
+.category:hover .btn{ 
+    opacity: 1;
+    transform: translateY(0%);
+}
+.category{
+    text-align: center;
+}

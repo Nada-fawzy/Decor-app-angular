@@ -1,0 +1,23 @@
+<div class=" mx-3 shadow d-flex p-5 px-2 m-auto my-5 rounded-3 justify-content-center flex-wrap">
+    <div *ngFor="let prod of products">
+        <div class="rounded-3 shadow h-auto mb-4 mx-1" style="width: 18rem; cursor: pointer;" (click)="getProduct(prod.id)">
+            <div class="w-100 rounded-top-3 h-75 img"  [style.backgroundImage]="'url(' + prod.paths.img + ')'"></div>
+            <div class="p-3">
+                <div class="d-flex justify-content-between align-items-start ">
+                    <h4 class="m-0">{{prod.name}}</h4>
+                </div>
+                
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                    <i [class.fas]="i < prod.rate" [class.fa-star]="i < prod.rate" 
+                       [class.far]="i >= prod.rate" [class.fa-star]="true" class="icon m-0 bg-transparent"></i>
+                </ng-container>
+
+                <h5 class="mt-2 mb-1">{{prod.price}} EGP</h5>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- <app-add-product-dialog></app-add-product-dialog> -->
